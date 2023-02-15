@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "test": "jest",
+    "postinstall": "tsc -b",
     "build": "tsc"
   },
   "repository": {

@@ -12,6 +12,7 @@ class Storage {
   async removeItem(key:string) {
     return await AsyncStorage.removeItem(key);
   }
+  
 
   async setObj(key: string, value: object) {
     await AsyncStorage.setItem(key, JSON.stringify(value));
